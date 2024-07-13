@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra - Fashion Frenzy</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <div id="logo">
+        <img src="images/myntra-removebg-preview.png" alt="brandLogo" id="landingPage">
+    </div>
+    <ul id="nav_bar">
+        <li><a href="../Homepages/menHomePage.html">men</a></li>
+        <li><a href="../Homepages/womenHomePage.html">women</a></li>
+        <li><a href="#">kids</a></li>
+        <li><a href="../Homepages/homeLiving.html">home & living</a></li>
+        <li><a href="#">beauty</a></li>
+        <li id="studio"><a href="#">studio</a><span>new</span></li>
+    </ul> 
+    <div id="search">
+        <input type="text" id="search_bar" placeholder="Search for products, brands and more">
+        <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
+    </div>
+    <div id="right_icon">
+        <div id="reggDropdown">
+            <!-- DROPDOWN MENU TO BE CREATED FOR LOGIN AND SIGNUP -->
+          <div id="drop">
+              <a href="../Profile/profile.html" class="dropList">login</a>
+              <a href="../Profile/signup.html" class="dropList">sign up</a>
+          </div>
+
+          <i class="fa-regular fa-user"></i>
+          <span>profile</span>
+      </div>
+        <div>
+            <i class="fa-regular fa-heart"></i>
+            <span>wishlist</span>
+        </div>
+        <div>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span>bag</span>
+        </div>
+    </div>
+
+            <!-- TOGGLE MENU -->
+            <div id="toggle">
+                <i class='bx bx-menu dropbtn' onclick="myFunction()"></i>
+                <div id="myDropdown" class="dropdown-content">
+                    <div class="top">
+                        <a href="menHomePage.html">men</a>
+                        <a href="womenHomePage.html">women</a>
+                        <a href="#">kids</a>
+                        <a href="homeLiving.html">home & living</a>
+                        <a href="#">beauty</a>
+                        <a href="#">studio</a>
+                    </div> 
+                    <div class="bottom">
+                        <i class="fa-regular fa-user fa_user" id="profile"></i>
+                        <i class="fa-regular fa-heart fa_wishlist"></i>
+                        <i class="fa-solid fa-bag-shopping fa_cart"></i>
+                    </div>           
+                </div>
+            </div>
+            
+</header>
+<body>
+    
+    <br><br><br><br><br><br><br><br>
+    <p style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 3.5em; color: #FF3E6C; letter-spacing: 0.1em; text-transform: uppercase; text-align:center"><i><b>UPCOMING TRENDS</b></i></p>
+    <br>
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/cur1.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/cur2.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/cur3.png" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/cur4.png" alt="Fourth slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/cur5.png" alt="Fifth slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/cur6.png" alt="Sixth slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/cur7.png" alt="Seventh slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+
+  <div class="single-services">
+    <div class="container">
+      <div class="row" id="tabs">
+        <div class="col-md-4">
+          <ul>
+            <li><a href='#tabs-2'>Pattern Palette</a></li>
+            <li><a href='#tabs-1'>Be-A-Boho</a></li>
+            
+            <li><a href='#tabs-3'>Paw Pals</a></li>
+            <li><a href='#tabs-4'>Denimite</a></li>
+            <li><a href='#tabs-5'>Opposites Attract</a></li>
+            <li><a href='#tabs-6'>Fashion Fusion</a></li>
+            <li><a href='#tabs-7'>Rainbow Touch</a></li>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <section class='tabs-content'>
+            <article id='tabs-2'>
+              <img src="images/cur1.png" alt="">
+              <h4>Pattern Palette</h4>
+              <p style="text-align: justify;">Dive into the world of patterns with Myntra's Pattern Palette! Whether you're a fan of florals, stripes, 
+                or intricate prints, this contest invites you to showcase your unique fashion style centered around your favorite patterns. Unleash your 
+                creativity and inspire others with your pattern play. Join us in celebrating the beauty of fashion through patterns and stand a chance to 
+                win exciting prizes. Let your style speak volumes with Pattern Palette!</p>
+            </article><br><br>
+            <article id='tabs-1'>
+              <img src="images/cur2.png" alt="">
+              <h4>Be-A-Boho</h4>
+              <p>Calling all free spirits and bohemian souls! Embrace your inner boho-chic with Myntra's Be a Boho contest. Show off your flair for 
+                bohemian fashion, from flowing dresses to eclectic accessories. Whether you're channeling festival vibes or everyday boho charm, this 
+                contest is your stage to shine. Share your best boho-inspired looks and let your style journey inspire others. Get ready to make a 
+                statement and win hearts with your Boho style!</p>
+                <br><br>
+            </article>
+            
+            <article id='tabs-3'>
+              <img src="images/cur3.png" alt="">
+              <h4>Paw Pals</h4>
+              <p>Who says pets can't be fashion icons too? Introducing Paw Pals, where you and your furry friends can showcase your matching fashion 
+                sense! Whether you have a dog, cat, or any other pet, dress up in coordinating outfits that reflect your unique bond. From cute accessories 
+                to stylish ensembles, let your pet be your ultimate fashion companion. Share your adorable twinning moments with us and stand a chance to
+                 win prizes that celebrate your pet-loving style!</p><br>
+                 <br><br>
+            </article>
+            <article id='tabs-4'>
+              <img src="images/cur4.png" alt="">
+              <h4>Denimite</h4>
+              <p>Indulge in the timeless charm of denim with Myntra's Denimite contest. From classic blue jeans to trendy denim jackets, show us how you 
+                rock denim in style. Whether you prefer a laid-back casual vibe or a chic denim-on-denim ensemble, this contest is all about celebrating the 
+                versatility of denim fashion. Share your best denim looks and inspire others with your denimite fashion sense. Let your love for denim shine
+                 bright and win rewards that honor your denim devotion!</p>
+                 <br><br>
+            </article>
+            <article id='tabs-5'>
+                <img src="images/cur5.png" alt="">
+                <h4>Opposites Attract</h4>
+                <p>Challenge traditional fashion norms with Myntra's Opposites Attract contest. Step into the shoes (or styles) of the opposite gender and 
+                    showcase your interpretation of their fashion sense. Whether you're exploring masculine silhouettes with a feminine twist or embracing 
+                    feminine grace with a touch of masculinity, let your style transcend boundaries. Break free from conventional fashion rules and redefine 
+                    gender-neutral fashion. Join us in celebrating diversity and win accolades for your bold fashion statement!</p>
+                    <br><br>
+              </article>
+              <article id='tabs-6'>
+                <img src="images/cur6.png" alt="">
+                <h4>Fashion Fusion</h4>
+                <p>Explore the timeless appeal of fashion fusion with Myntra's Fashion Fusion contest. Merge the elegance of retro styles with the vibrancy 
+                    of modern trends to create a fashion statement that is truly unique. Whether it's a vintage twist on contemporary fashion or a modern take 
+                    on classic attire, let your creativity redefine fashion fusion. Show the world how you blend the best of both worlds and elevate your style
+                     game. Join us on this journey of fashion evolution and win accolades for your fusion flair!</p>
+                     <br><br>
+              </article>
+              <article id='tabs-7'>
+                <img src="images/cur7.png" alt="">
+                <h4>Rainbow Touch</h4>
+                <p>Color your world with Myntra's Rainbow Touch contest! Dress up in your most vibrant and colorful outfits that showcase the spectrum of 
+                    rainbow hues. Whether you opt for a bold monochromatic look or a playful mix of colors, let your outfit radiate joy and positivity. Embrace 
+                    the diversity of colors and patterns to create a visual masterpiece that stands out. Spread the rainbow love with your fashion choices
+                     and win exciting prizes that celebrate your colorful spirit!</p>
+                     <br><br>
+              </article>
+          </section>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+<footer>
+    <section id="section_1">
+        <div id="left">
+            <div>
+                <h4>online shopping</h4>
+                <p>men</p>
+                <p>women</p>
+                <p>home & living</p>
+                <p>beauty</p>
+                <p>gift cards</p>
+                <p>myntra insider<span id="latest">New</span></p>
+            </div>
+            <div>
+              <h4>useful links</h4>
+              <p>men</p>
+              <p>faq</p>
+              <p>t&c</p>
+              <p>terms of use</p>
+              <p>track order</p>
+              <p>shipping</p>
+              <p>cancellation</p>
+              <p>returns</p>
+              <p>whitehat</p>
+              <p>blog</p>
+              <p>careers</p>
+              <p>privacy policy</p>
+              <p>site map</p>
+              <p>corporate information</p>
+            </div>
+            <div>
+                <h4>experience myntra app on mobile</h4>
+                <img src="https://bit.ly/3LluZ4L" alt="android">
+                <img src="https://bit.ly/3DmWQys" alt="ios">
+                <h4 id="social_connect">keep in touch</h4>
+                <div>
+                  <i class="fa-brands fa-facebook-square"></i>
+                  <i class="fa-brands fa-twitter-square"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <div>
+                <img src="https://bit.ly/3JPiL47" alt="original">
+                <p> <span>100% ORIGINAL</span> guarantee for all products at myntra.com</p>
+            </div>
+            <div>
+                <img src="https://bit.ly/3uBalH4" alt="return_policy">
+                <p><span>Return within 30days</span> of receiving your order</p>
+            </div>
+        </div>
+    </section>
+    <section id="section_2">
+        <h4>popular searches</h4>
+        <div></div>
+    </section>
+    <section id="section_3">
+      <a href="">sherwani</a><a href="">track pants</a><a href="">blazzers</a><a href="">sweater</a><a href="">jeans</a><a href="">suit</a><a href="">trouser</a><a href="">shalwar</a><a href="">bracelets</a><a href="">sherwani</a><a href="">cargo</a><a href="">shirt</a><a href="">sherwani</a><a href="">shelwar</a><a href="">Bracelets</a><a href="">sherwani</a><a href="">blazzers</a><a href="">sherwani</a><a href="">bracelets</a><a href="">rings</a><a href="">blazzers</a><a href="">sherwani</a><a href="">sherwani</a><a href="">sherwani</a><a href="">blazzers</a><a href="">blazzers</a><a href="">blazzers</a><a href="">shelwar</a><a href="">shalwar</a><a href="">jeans</a>
+    </section>
+    <section id="section_4">
+        <p>In case of any concern <a href="#"> contact us</a></p>
+        <p>&#169; 2022 www.myntra.com. All rights reserved.</p>
+    </section>
+    <hr>
+   
+</footer>
+
+
+<script src="../Common Files/women.js"></script>
+<script src="../Common Files/headerMenu.js"></script>
+<script src="../Common Files/corousel.js"></script>
+<script src="../Common Files/hyperlinks.js"></script>
+</html>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
