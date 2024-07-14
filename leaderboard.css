@@ -1,0 +1,145 @@
+
+
+.containervote {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fff;
+ 
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.voting-section, .leaderboard-section {
+  margin-bottom: 20px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-around;
+}
+
+.picture {
+  text-align: center;
+}
+.username{
+  font-size: 20px;
+  border: 1px soil #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #2b2b2b;
+  color:white;
+  align-content: right;
+
+}
+.picture img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+h2{
+  font-size: 65px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#c3022f;
+  text-align: center;
+}
+h3{
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#070002;
+  text-align: center;
+}
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff3868;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(243, 2, 58);
+}
+
+.leaderboard-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.leaderboard-section li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.voting-section, .leaderboard-section {
+  margin-bottom: 20px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-around;
+}
+
+.picture {
+  text-align: center;
+}
+
+.picture img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ff3868;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead th {
+  background-color:#ff3868;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
