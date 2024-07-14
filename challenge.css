@@ -1,0 +1,152 @@
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+.tagline-container {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    background-color: #ed1174;
+}
+
+.tagline {
+    display: inline-block;
+    padding-right: 100%;
+    animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.tagline span {
+    padding: 0px 70px;
+    font-family: cursive; 
+    font-size: 35px; 
+    color: #fff;
+    display: inline-block;
+}
+
+
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-section {
+    font-size: 20px;
+    margin-top: 80px;
+    margin-right: 20px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ed1174;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ed1174;
+}
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: #ed1174;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ed1174;
+}
+*/
+.options {
+    margin-top: 10px;
+}
+
+.options button {
+    margin-right: 10px;
+}
+
+.hidden {
+    display: none;
+}
+.right-section .challenge-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Example: Adding border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example: Adding a subtle shadow */
+}
+
+.centered {
+    text-align: center;
+    color: #ed1174;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.section {
+    flex: 1;
+    padding: 10px;
+}
+
+.join-statement {
+    font-style: italic;
+    font-weight: bold;
+    color: #ed1174;
+    font-size: 1em;
+    margin-top: 20px;
+    text-align: center;
+}
+.join-statement a{
+    color: #ed1174;
+}
+.contentend{
+    font-size: 20px;
+    align-content: center;
+}
