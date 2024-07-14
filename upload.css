@@ -1,0 +1,38 @@
+.upload-container {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 30;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+.pink-button {
+    background-color:#ed1174;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.pink-button a {
+    color: white;
+
+}
+
+.pink-button:hover {
+    background-color: #ed1174; /* Darker pink on hover */
+    
+}
