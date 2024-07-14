@@ -9,6 +9,7 @@ Fashion Frenzy is a vibrant and engaging challenge designed for the Myntra platf
 <ul>
 <li>Interactive Fashion Challenges: Participate in various themed fashion challenges.</li>
 <li>Voting System: Community members can vote for their favorite outfits and earn rewards.</li>
+
 <li>Exclusive Prizes: Winners get to meet influencers, feature on Myntra’s Instagram, and win vouchers and coupons.</li>
 <li>Engaging User Experience: Encourages creativity and community interaction.</li>
 <li>Rewards for Voters: Voters earn coins and unlock special rewards after collecting enough coins.</li>
@@ -16,4 +17,5 @@ Fashion Frenzy is a vibrant and engaging challenge designed for the Myntra platf
 </ul>
 <br>
 
+![Screenshot (565)](https://github.com/user-attachments/assets/62959f36-21c6-4db3-9086-fabb6c9e494e)
 
