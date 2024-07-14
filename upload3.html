@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="challenge.css">
+    <link rel="stylesheet" href="upload.css">
+</head>
+<body>
+  <header>
+    <div id="logo">
+        <img src="images/myntra-removebg-preview.png" alt="brandLogo" id="landingPage">
+    </div>
+    <ul id="nav_bar">
+        <li><a href="../Homepages/menHomePage.html">men</a></li>
+        <li><a href="../Homepages/womenHomePage.html">women</a></li>
+        <li><a href="#">kids</a></li>
+        <li><a href="../Homepages/homeLiving.html">home & living</a></li>
+        <li><a href="#">beauty</a></li>
+        <li id="studio"><a href="#">studio</a><span>new</span></li>
+    </ul> 
+    <div id="search">
+        <input type="text" id="search_bar" placeholder="Search for products, brands and more">
+        <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
+    </div>
+    <div id="right_icon">
+        <div id="reggDropdown">
+            <!-- DROPDOWN MENU TO BE CREATED FOR LOGIN AND SIGNUP -->
+          <div id="drop">
+              <a href="../Profile/profile.html" class="dropList">login</a>
+              <a href="../Profile/signup.html" class="dropList">sign up</a>
+          </div>
+
+          <i class="fa-regular fa-user"></i>
+          <span>profile</span>
+      </div>
+        <div>
+            <i class="fa-regular fa-heart"></i>
+            <span>wishlist</span>
+        </div>
+        <div>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span>bag</span>
+        </div>
+    </div>
+
+            <!-- TOGGLE MENU -->
+            <div id="toggle">
+                <i class='bx bx-menu dropbtn' onclick="myFunction()"></i>
+                <div id="myDropdown" class="dropdown-content">
+                    <div class="top">
+                        <a href="menHomePage.html">men</a>
+                        <a href="womenHomePage.html">women</a>
+                        <a href="#">kids</a>
+                        <a href="homeLiving.html">home & living</a>
+                        <a href="#">beauty</a>
+                        <a href="#">studio</a>
+                    </div> 
+                    <div class="bottom">
+                        <i class="fa-regular fa-user fa_user" id="profile"></i>
+                        <i class="fa-regular fa-heart fa_wishlist"></i>
+                        <i class="fa-solid fa-bag-shopping fa_cart"></i>
+                    </div>           
+                </div>
+            </div>
+
+</header>
+
+
+<br>
+<br>
+  <br>
+  <br>
+  <br>
+
+
+<body>
+
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/challenge33.png" alt="First slide">
+      </div>
+    </div>
+    
+    
+      <div class="tagline-container">
+        <div class="tagline">
+            <span>Rainbow Touch: Embrace the Colour, Redefine Your Style!</span>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="upload-container">
+        <h1>Upload Your Photo for Fashion Frenzy</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="photo" id="photo" accept="image/*" required>
+            <button class="pink-button"><a href="leaderboard.html">Upload</a></button>
+        </form>
+    </div>
+    <br><br><br><br><br><br><br><br>
+
+</body>
+
+
+
+
+
+  <footer>
+    <section id="section_1">
+        <div id="left">
+            <div>
+                <h4>online shopping</h4>
+                <p>men</p>
+                <p>women</p>
+                <p>home & living</p>
+                <p>beauty</p>
+                <p>gift cards</p>
+                <p>myntra insider<span id="latest">New</span></p>
+            </div>
+            <div>
+              <h4>useful links</h4>
+              <p>men</p>
+              <p>faq</p>
+              <p>t&c</p>
+              <p>terms of use</p>
+              <p>track order</p>
+              <p>shipping</p>
+              <p>cancellation</p>
+              <p>returns</p>
+              <p>whitehat</p>
+              <p>blog</p>
+              <p>careers</p>
+              <p>privacy policy</p>
+              <p>site map</p>
+              <p>corporate information</p>
+            </div>
+            <div>
+                <h4>experience myntra app on mobile</h4>
+                <img src="https://bit.ly/3LluZ4L" alt="android">
+                <img src="https://bit.ly/3DmWQys" alt="ios">
+                <h4 id="social_connect">keep in touch</h4>
+                <div>
+                  <i class="fa-brands fa-facebook-square"></i>
+                  <i class="fa-brands fa-twitter-square"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <div>
+                <img src="https://bit.ly/3JPiL47" alt="original">
+                <p> <span>100% ORIGINAL</span> guarantee for all products at myntra.com</p>
+            </div>
+            <div>
+                <img src="https://bit.ly/3uBalH4" alt="return_policy">
+                <p><span>Return within 30days</span> of receiving your order</p>
+            </div>
+        </div>
+    </section>
+    <section id="section_2">
+        <h4>popular searches</h4>
+        <div></div>
+    </section>
+    <section id="section_3">
+      <a href="">sherwani</a><a href="">track pants</a><a href="">blazzers</a><a href="">sweater</a><a href="">jeans</a><a href="">suit</a><a href="">trouser</a><a href="">shalwar</a><a href="">bracelets</a><a href="">sherwani</a><a href="">cargo</a><a href="">shirt</a><a href="">sherwani</a><a href="">shelwar</a><a href="">Bracelets</a><a href="">sherwani</a><a href="">blazzers</a><a href="">sherwani</a><a href="">bracelets</a><a href="">rings</a><a href="">blazzers</a><a href="">sherwani</a><a href="">sherwani</a><a href="">sherwani</a><a href="">blazzers</a><a href="">blazzers</a><a href="">blazzers</a><a href="">shelwar</a><a href="">shalwar</a><a href="">jeans</a>
+    </section>
+    <section id="section_4">
+        <p>In case of any concern <a href="#"> contact us</a></p>
+        <p>&#169; 2022 www.myntra.com. All rights reserved.</p>
+    </section>
+    <hr>
+   
+</footer>
+
+
+
+
+
+
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
